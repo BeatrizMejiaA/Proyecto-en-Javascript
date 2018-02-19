@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/ejercicio1.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="fondo">
+    <div class="capa">
+      <form class="formulario" action="" method="post">
+        <h1>Cotizador de poliza</h1>
+        <div class="datos">
+          <div class="datos-asegurado">
+            <h2>Datos del asegurado</h2>
+            <div class="informacion-personal">
+              <div class="nombres">
+                <input class="cajas" type="text" id="nombres" value="" placeholder="Nombres:">
+                <input class="cajas" type="text" id="apellidos" value="" placeholder="Apellidos:">
+              </div>
+              <h2>Fecha de nacimiento</h2>
+              <div class="fecha-nacimiento">
+                <input class="cajas" type="text" id="day" name="day" value="" placeholder="Día:">
+                <input class="cajas" type="text" id="month" name="month" value="" placeholder="Mes:">
+                <input class="cajas" type="text" id="year" name="year" value="" placeholder="Año:">
+              </div>
+            </div>
+          </div>
+          <div class="datos-adicionales">
+            <h2>¿Es casado?</h2>
+            <div class="container">
+              <div class="radio-buttons">
+                <input type="radio" name="casado" value="Si"> Si
+                <input type="radio" name="casado" value="No"> No
+              </div>
+              <input type="text" id="edad-conyug" class="caja" placeholder="Edad conyugue">
+            </div>
+          </div>
+          <div class="datos-adicionales">
+            <h2>¿Tiene hijos?</h2>
+            <div class="container">
+              <div class="radio-buttons">
+                <input type="radio" name="hijos" value="Si"> Si
+                <input type="radio" name="hijos" value="No"> No
+              </div>
+              <input type="text" id="cantidad-hijos" class="caja" placeholder="Cantidad de hijos menores a 21 años">
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <input class="button" type="button" name="Generar" value="Generar cotización" onclick="ejecutar()">
+          <input class="button" type="reset" name="Borrar" value="Limpiar datos">
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>
