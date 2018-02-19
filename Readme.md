@@ -2,7 +2,8 @@
 
 Nombres:							|   Carne:
 ----------------------------------------------------      
-Leticia Beatriz Mejía Agustín 18010346  Cristian Alejandro Raxtún Ramirez 17004529
+ - Leticia Beatriz Mejía Agustín 18010346  
+ - Cristian Alejandro Raxtún Ramirez 17004529
 
 
 Descripción del proyecto
